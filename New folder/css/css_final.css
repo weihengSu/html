@@ -1,0 +1,161 @@
+
+
+nav {
+list-style:none;
+margin:0;
+padding:0;
+text-align:center;
+}
+
+nav a {
+  display:inline-block;
+  font-size: 2vw;
+  padding:10px;
+  text-decoration:none; 
+  background: rgba(255,0,0,0.3);
+  text-align:center;
+}
+
+nav a:hover{
+
+background:green;
+
+}
+
+.picture{
+display:block;
+margin: 0 auto;
+}
+
+
+.stories{
+
+font-family: Calibri;
+width:80%;
+height:80%;
+overflow:scroll;
+display:block;
+margin: 0 auto;
+
+}
+
+#note{
+font-size:Arial;
+font-size:20px;
+color:green;
+}
+
+#note2{
+font-size:Arial;
+font-size:20px;
+color:green;
+}
+
+
+section {
+display:block;
+margin: 0 auto;
+
+}
+
+
+section>header{
+
+color:red;
+font-size:1.5vw;
+padding:30px;
+
+
+}
+
+section p {
+width:20%;
+float:left;
+margin:25px;
+text-align:center;
+font-size:1.5vw;
+}
+
+p span{
+font-size:14px;
+color:blue;
+text-transform:uppercase;
+
+}
+
+section p img{
+display:inline-block;
+margin-bottom:20px;
+width:110%
+
+}
+
+
+#edit_audio{
+display:block;
+margin: 0 auto;
+
+}
+
+
+
+
+
+
+#h_footer{
+position: fixed;
+right:0;
+left:0;
+bottom:0;
+text-align:center;
+background-color:yellow;
+padding:1px;
+
+}
+
+.bt{
+margin-left:34px;
+margin-top:30px;
+}
+
+.required{
+color:red;
+font-size:inherit;
+}
+
+form {
+
+padding: 0 0 2em 6em;
+}
+
+fieldset {
+border: 1px solid #ccc;
+border-radius:5px;
+font-size: 0.9em;
+margin: 0.6em 0 0 5em;
+width:45em;
+
+}
+
+label, input {
+    float: left;
+    font-family: arial;    
+    margin: 5px;
+}
+
+label {
+    clear: left;
+    text-align: right;
+    width: 150px;
+}
+
+input {
+    font-size: inherit;
+    border-radius: 5px;
+	color:grey;
+}
+#contact_button{
+display:block;
+margin: 0 auto;
+
+}
